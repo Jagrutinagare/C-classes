@@ -1,14 +1,10 @@
 #include<stdio.h>
-void add(int a,int b)
+int main()
 {
-printf("\n add:%d",a+b)
-}
-void sub(int a,int b)
-{
-printf("\n sub:%d",a-b)
-}
-void multi(int a,int b)
-{
-printf("\n multi:%d",a*b)
-}
+int x=3,y=10,temp;
+temp=x;
+x=y;y=temp;
 
+printf("%d\n%d\n",x,y);
+return 0;
+}
